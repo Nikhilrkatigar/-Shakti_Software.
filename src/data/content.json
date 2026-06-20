@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "titleLine1": "We build amazing software",
+    "titleLine2": "that moves businesses",
+    "titleLine3": "forward",
+    "description": "From custom websites to full-scale enterprise applications — Sakthi Software delivers end-to-end digital solutions tailored exactly to your needs.",
+    "buttonText": "Explore our services"
+  },
+  "services": [
+    {
+      "num": "01",
+      "title": "Business Portfolio Website",
+      "desc": "Premium business websites crafted to establish authority, trust, and strong digital presence.",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "02",
+      "title": "E-Commerce",
+      "desc": "High-converting online stores engineered for seamless shopping experiences and scalable growth.",
+      "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "03",
+      "title": "Web Software Application",
+      "desc": "Custom web platforms, dashboards, and SaaS systems built with performance-first architecture.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "04",
+      "title": "SEO & Google Analytics",
+      "desc": "Search optimization and data-driven analytics setup to improve visibility and business insights.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "05",
+      "title": "Management Systems",
+      "desc": "Efficient management systems designed to automate workflows and simplify operations.",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "06",
+      "title": "Outdated Website Redesign",
+      "desc": "Transforming outdated websites into modern, immersive, and conversion-focused experiences.",
+      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "07",
+      "title": "Web Server Migrations",
+      "desc": "Secure and seamless server migration solutions with minimal downtime and optimized deployment.",
+      "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "08",
+      "title": "Server Maintenance & Security",
+      "desc": "Continuous monitoring, maintenance, and security hardening for stable digital infrastructure.",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "num": "09",
+      "title": "Domain Email Setup",
+      "desc": "Professional domain-based email configuration with reliable delivery and branding consistency.",
+      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&w=600&q=80"
+    }
+  ],
+  "whyUs": {
+    "title": "Built on Trust, Delivered with Precision",
+    "description": "We're not just coders — we're partners who care about your business outcomes.",
+    "checklist": [
+      "On-time delivery guaranteed",
+      "Transparent pricing, no hidden fees",
+      "Direct communication — always",
+      "Source code ownership for every client"
+    ],
+    "cards": [
+      {
+        "icon": "⚡",
+        "title": "Fast Turnaround",
+        "desc": "We ship MVPs in weeks, not months — without compromising quality."
+      },
+      {
+        "icon": "🔒",
+        "title": "Security First",
+        "desc": "Every product is built with security best practices baked in from day one."
+      },
+      {
+        "icon": "📈",
+        "title": "Scalable Architecture",
+        "desc": "Code that grows with your business — no rewrites needed as you scale."
+      },
+      {
+        "icon": "🤝",
+        "title": "Dedicated Support",
+        "desc": "A real person answers your calls. We stay engaged long after launch."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Sakthi Software built our entire e-commerce platform from scratch. The team understood our business instantly and delivered a product that our customers love. Sales went up 40% in the first month.",
+      "initials": "RK",
+      "name": "Rajesh Kumar",
+      "role": "Founder, ShopEase India"
+    },
+    {
+      "quote": "We needed a custom ERP tailored to our manufacturing workflow. They got it right the first time — on budget, on schedule. Exceptional technical team and great communication throughout.",
+      "initials": "PM",
+      "name": "Priya Mehta",
+      "role": "Operations Head, Viraj Industries"
+    },
+    {
+      "quote": "Our mobile app went live in just 6 weeks. Clean UI, fast performance, and zero bugs on launch day. Sakthi Software is now our go-to partner for every digital initiative.",
+      "initials": "AS",
+      "name": "Arjun Sharma",
+      "role": "CEO, HealthTrack App"
+    }
+  ]
+}
