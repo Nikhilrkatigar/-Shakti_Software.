@@ -1,7 +1,7 @@
 import fs from "fs"
 import path from "path"
 import react from "@vitejs/plugin-react"
-import { defineConfig, Plugin } from "vite"
+import { defineConfig, type Plugin } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 function cmsPlugin(): Plugin {
