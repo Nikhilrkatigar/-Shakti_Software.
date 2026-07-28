@@ -41,17 +41,17 @@ export default function Admin() {
   return (
     <div style={{ padding: '40px', maxWidth: '800px', margin: '0 auto', fontFamily: 'sans-serif' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
-        <h1 style={{ margin: 0 }}>Sakthi CMS</h1>
+        <h1 style={{ margin: 0 }}>Shakti Softwares CMS</h1>
         <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
           {message && <span style={{ color: message.includes('Error') ? 'red' : 'green' }}>{message}</span>}
-          <button 
-            onClick={handleSave} 
+          <button
+            onClick={handleSave}
             disabled={saving}
-            style={{ padding: '10px 20px', background: '#A0522D', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
+            style={{ padding: '10px 20px', background: '#0F5FB0', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
           >
             {saving ? 'Saving...' : 'Save Changes'}
           </button>
-          <a href="/" target="_blank" style={{ color: '#A0522D', textDecoration: 'none' }}>View Site ↗</a>
+          <a href="/" target="_blank" style={{ color: '#0F5FB0', textDecoration: 'none' }}>View Site ↗</a>
         </div>
       </div>
 

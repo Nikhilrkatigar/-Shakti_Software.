@@ -54,7 +54,9 @@ function cmsPlugin(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  // Absolute base is required: relative './' breaks asset URLs on nested
+  // routes such as /work/:slug once the app is deployed.
+  base: '/',
   plugins: [inspectAttr(), react(), cmsPlugin()],
   server: {
     port: 3000,

@@ -1,117 +1,336 @@
 {
-  "hero": {
-    "titleLine1": "We build amazing software",
-    "titleLine2": "that moves businesses",
-    "titleLine3": "forward",
-    "description": "From custom websites to full-scale enterprise applications — Sakthi Software delivers end-to-end digital solutions tailored exactly to your needs.",
-    "buttonText": "Explore our services"
+  "company": {
+    "name": "Shakti Softwares",
+    "tagline": "Enterprise Software Engineering",
+    "city": "Hubli, Karnataka",
+    "email": "nikhilkatigar76@gmail.com",
+    "phonePrimary": "+91 89042 86980",
+    "established": "Hubli, Karnataka, India"
   },
+  "hero": {
+    "eyebrow": "SOFTWARE ENGINEERING — HUBLI, KARNATAKA",
+    "titleLine1": "Software that runs",
+    "titleLine2": "your operations,",
+    "titleLine3": "not just your website.",
+    "description": "We design and build ordering platforms, billing and inventory systems, SaaS products, computer-vision tools, and audit automation for manufacturing, retail, agricultural trade, and professional services businesses across Karnataka.",
+    "buttonText": "Explore our services",
+    "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1920&q=80"
+  },
+  "stats": [
+    { "value": "4", "label": "Live Enterprise Systems" },
+    { "value": "4", "label": "Industries Served" },
+    { "value": "100%", "label": "Client Retention" },
+    { "value": "24/7", "label": "Support Availability" }
+  ],
+  "clients": [
+    { "name": "SVT Oil Corporation", "industry": "Manufacturing & Distribution" },
+    { "name": "APMC, Hubli", "industry": "Agricultural Trade & Warehousing" },
+    { "name": "Chartered Accountancy Firms", "industry": "Professional Services" },
+    { "name": "Gold & Jewellery Retail", "industry": "Retail & Point of Sale" }
+  ],
+  "caseStudies": [
+    {
+      "slug": "svt-oil-ordering-and-box-detection",
+      "tag": "Manufacturing & Distribution",
+      "client": "SVT Oil Corporation",
+      "title": "Online Ordering Platform & Automated Box Count Detection",
+      "summary": "A distributor ordering platform paired with an image-based box counting system that verifies dispatch quantities on the production floor.",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80",
+      "challenge": "Orders from distributors and dealers arrived by phone call, WhatsApp, and paper slips. There was no single record of what had been ordered, confirmed, or dispatched, and reconciling them consumed hours of the sales team's day. On the dispatch floor, box counts were tallied by hand — a slow process where a miscount was only discovered after the consignment had already left.",
+      "solution": "We built a dedicated online ordering platform where distributors place and track their own orders against a live catalogue, with confirmation and dispatch status visible to both sides. Alongside it we developed a box count detection system that uses image-based counting to verify quantities at the point of dispatch, flagging mismatches against the order before the consignment is loaded.",
+      "outcomes": [
+        "Digitised distributor ordering, cutting order processing and reconciliation time",
+        "Automated box counting at dispatch, eliminating manual tally errors",
+        "Real-time order and stock visibility for the operations team",
+        "A single auditable record of every order from placement to dispatch"
+      ],
+      "tech": ["React", "Node.js", "Python", "OpenCV", "PostgreSQL"],
+      "services": ["Ordering Platforms", "Computer Vision", "Systems Integration"]
+    },
+    {
+      "slug": "ca-firm-audit-report-automation",
+      "tag": "Professional Services",
+      "client": "Chartered Accountancy Firms",
+      "title": "Automated Audit Report Generation",
+      "summary": "An automation tool that turns raw client financial files into structured, formatted audit reports without manual re-entry.",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80",
+      "challenge": "During audit season, teams were rebuilding the same report structure for every client by hand — copying figures between spreadsheets, cross-checking totals, and reformatting documents. The work was repetitive, slow, and every manual transfer was an opportunity for an error that would only surface at review.",
+      "solution": "We built an automation tool that ingests client financial files and generates the audit report directly from them. Figures are pulled and cross-checked programmatically, the report structure and formatting stay identical across every client, and validation runs flag inconsistencies before the document reaches a reviewer.",
+      "outcomes": [
+        "Raw client financial files converted into formatted audit reports automatically",
+        "Sharp reduction in manual data entry and cross-checking during audit season",
+        "Consistent report formatting and structure across every client file",
+        "Validation checks that surface inconsistencies before review, not after"
+      ],
+      "tech": ["Python", "Excel & PDF Automation", "React", "Node.js"],
+      "services": ["Document Automation", "Workflow Tooling"]
+    },
+    {
+      "slug": "apmc-hubli-godown-management",
+      "tag": "Agricultural Trade & Warehousing",
+      "client": "APMC, Hubli",
+      "title": "Godown Inventory & Billing Management System",
+      "summary": "One platform covering inventory tracking, stock movement, and billing across multiple large godowns.",
+      "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1920&q=80",
+      "challenge": "Large godowns operating under APMC Hubli tracked inward and outward stock in paper registers. Knowing current stock meant physically checking, and billing was prepared separately from the movement records it was supposed to reflect — so the two regularly disagreed, and reconciling them was manual.",
+      "solution": "We built a management system that records every inward and outward movement as it happens and derives both stock position and billing from that single record. Warehouse staff get real-time visibility of what is held where, and invoices are generated directly from recorded movement rather than re-entered.",
+      "outcomes": [
+        "Real-time inventory tracking across multiple large godowns",
+        "Billing generated directly from recorded stock movement",
+        "Reduced dependency on manual ledgers and paper registers",
+        "Consistent stock and billing figures that reconcile by default"
+      ],
+      "tech": ["React", "Node.js", "PostgreSQL", "Billing Automation"],
+      "services": ["Inventory Systems", "Billing Automation"]
+    },
+    {
+      "slug": "gold-shop-saas-billing",
+      "tag": "Jewellery Retail",
+      "client": "Gold & Jewellery Retail",
+      "title": "SaaS Billing Platform with a Shop-Optimised Mobile App",
+      "summary": "A subscription billing platform for gold retail, with a mobile app built around how billing actually happens at the counter.",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1600&q=80",
+      "heroImage": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1920&q=80",
+      "challenge": "Billing in a gold shop is never a flat price. Every invoice depends on the day's rate, the weight and purity of the piece, making charges, wastage, any old gold being exchanged, and GST on top. Working that out on a calculator while a customer waits at the counter is slow, and a single mis-keyed figure changes the value of the sale. Stock and customer purchase history were tracked separately again, by hand.",
+      "solution": "We built a SaaS billing platform for jewellery retail, delivered with a mobile app designed for counter use rather than a desk. Staff enter the item by weight and purity, the current rate and making charges are applied automatically, old gold being exchanged is deducted, and a GST-compliant invoice is generated and shared with the customer in the same flow. The same bill updates stock and the customer's purchase history, so the records stay in step without re-entry.",
+      "outcomes": [
+        "Billing at the counter in a fraction of the time, with the rate applied automatically",
+        "Rate, making charge, wastage, and exchange calculations no longer done by hand",
+        "GST-compliant invoices generated and shared directly with the customer",
+        "Stock and customer purchase history updated from the bill itself",
+        "Runs on a phone or tablet at the counter, delivered as a subscription"
+      ],
+      "tech": ["React", "React Native", "Node.js", "PostgreSQL", "GST Invoicing"],
+      "services": ["SaaS Products", "Billing Automation", "Mobile Apps"]
+    }
+  ],
+  "team": [
+    {
+      "name": "Nikhil Katigar",
+      "role": "Technology & Engineering Lead",
+      "phone": "+91 89042 86980",
+      "bio": "Leads architecture and full-stack development across client engagements, from the SVT Oil ordering platform to the APMC Hubli inventory system."
+    },
+    {
+      "name": "Chetan Jatti",
+      "role": "Product & Client Solutions Lead",
+      "phone": "+91 99806 77467",
+      "bio": "Works directly with clients to translate operational workflows — ordering, auditing, warehousing — into software that fits how they actually run."
+    },
+    {
+      "name": "Kishan Hanchate",
+      "role": "Software Developer",
+      "phone": "+91 70224 13628",
+      "bio": "Builds and maintains core application features across our automation tools and management systems."
+    }
+  ],
   "services": [
     {
       "num": "01",
-      "title": "Business Portfolio Website",
-      "desc": "Premium business websites crafted to establish authority, trust, and strong digital presence.",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&q=80"
+      "icon": "ShoppingCart",
+      "title": "Ordering & E-Commerce Platforms",
+      "desc": "Distributor and customer-facing ordering systems built around your existing sales workflow, from catalogue to dispatch.",
+      "points": ["Distributor & dealer portals", "Live catalogue and pricing", "Order tracking and dispatch status"]
     },
     {
       "num": "02",
-      "title": "E-Commerce",
-      "desc": "High-converting online stores engineered for seamless shopping experiences and scalable growth.",
-      "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80"
+      "icon": "Boxes",
+      "title": "Billing, POS & Inventory Systems",
+      "desc": "Retail counters, warehouses, and godowns — billing platforms that keep stock, invoices, and customer records in step.",
+      "points": ["Retail POS and mobile billing apps", "GST-compliant invoicing", "Stock updated from the bill itself"]
     },
     {
       "num": "03",
-      "title": "Web Software Application",
-      "desc": "Custom web platforms, dashboards, and SaaS systems built with performance-first architecture.",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+      "icon": "FileSpreadsheet",
+      "title": "Report & Document Automation",
+      "desc": "Tools that turn raw client files into structured, ready-to-use reports — built for audit, finance, and back-office teams.",
+      "points": ["Financial file ingestion", "Automated report generation", "Built-in validation checks"]
     },
     {
       "num": "04",
-      "title": "SEO & Google Analytics",
-      "desc": "Search optimization and data-driven analytics setup to improve visibility and business insights.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+      "icon": "ScanEye",
+      "title": "Computer Vision & Detection",
+      "desc": "Image-based counting and verification systems for production and dispatch floors, reducing manual tally errors.",
+      "points": ["Automated box & unit counting", "Dispatch quantity verification", "Mismatch alerts against orders"]
     },
     {
       "num": "05",
-      "title": "Management Systems",
-      "desc": "Efficient management systems designed to automate workflows and simplify operations.",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80"
+      "icon": "Globe",
+      "title": "Business Websites",
+      "desc": "Fast, professional business websites built to establish credibility and convert visitors into enquiries.",
+      "points": ["Corporate and product sites", "Mobile-first performance", "SEO-ready structure"]
     },
     {
       "num": "06",
-      "title": "Outdated Website Redesign",
-      "desc": "Transforming outdated websites into modern, immersive, and conversion-focused experiences.",
-      "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80"
+      "icon": "RefreshCw",
+      "title": "Website Redesign & Modernisation",
+      "desc": "Rebuilding outdated business websites into modern, fast, mobile-friendly experiences without losing your content.",
+      "points": ["Content-preserving rebuilds", "Performance overhaul", "Accessibility improvements"]
     },
     {
       "num": "07",
-      "title": "Web Server Migrations",
-      "desc": "Secure and seamless server migration solutions with minimal downtime and optimized deployment.",
-      "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=600&q=80"
+      "icon": "Server",
+      "title": "Server Setup & Migration",
+      "desc": "Secure server setup and migration with minimal downtime, planned around your business hours.",
+      "points": ["Zero-surprise migration plans", "Off-hours cutover", "Backup and rollback strategy"]
     },
     {
       "num": "08",
-      "title": "Server Maintenance & Security",
-      "desc": "Continuous monitoring, maintenance, and security hardening for stable digital infrastructure.",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80"
+      "icon": "ShieldCheck",
+      "title": "Maintenance & Support",
+      "desc": "Ongoing monitoring, updates, and support after launch — a real person you can call when something needs attention.",
+      "points": ["Proactive monitoring", "Security patching", "Direct line to the engineers"]
     },
     {
       "num": "09",
-      "title": "Domain Email Setup",
-      "desc": "Professional domain-based email configuration with reliable delivery and branding consistency.",
-      "image": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?auto=format&fit=crop&w=600&q=80"
+      "icon": "Mail",
+      "title": "SEO & Business Email Setup",
+      "desc": "Search visibility improvements and professional domain-based email setup for a consistent business presence.",
+      "points": ["Technical SEO fixes", "Analytics configuration", "Domain email and deliverability"]
+    }
+  ],
+  "process": [
+    {
+      "num": "01",
+      "title": "Discovery",
+      "desc": "We sit with your team and map the actual workflow — how orders arrive, how stock moves, how a file becomes a report."
+    },
+    {
+      "num": "02",
+      "title": "Proposal & Plan",
+      "desc": "Clear scope, timeline, and pricing before anything is built. You approve the plan before we begin."
+    },
+    {
+      "num": "03",
+      "title": "Design & Build",
+      "desc": "Short build cycles with working demos, so you see and steer the system as it takes shape."
+    },
+    {
+      "num": "04",
+      "title": "Test & Deploy",
+      "desc": "Testing against real operating conditions, then a planned rollout scheduled around your business hours."
+    },
+    {
+      "num": "05",
+      "title": "Support & Evolve",
+      "desc": "Monitoring, updates, and enhancements after launch — we stay with the system as your operation grows."
     }
   ],
   "whyUs": {
-    "title": "Built on Trust, Delivered with Precision",
-    "description": "We're not just coders — we're partners who care about your business outcomes.",
+    "title": "Built Around How Your Business Actually Works",
+    "description": "We don't start from a template. We start by understanding your ordering process, your billing counter, your warehouse floor, or your audit workflow — then build software around it.",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80",
     "checklist": [
-      "On-time delivery guaranteed",
-      "Transparent pricing, no hidden fees",
-      "Direct communication — always",
-      "Source code ownership for every client"
+      "Systems designed around your existing workflow, not a template",
+      "Direct access to the engineers building your software",
+      "Transparent pricing with no hidden fees",
+      "Source code and data ownership for every client"
     ],
     "cards": [
       {
-        "icon": "⚡",
-        "title": "Fast Turnaround",
-        "desc": "We ship MVPs in weeks, not months — without compromising quality."
+        "icon": "Factory",
+        "title": "Built for Real Operations",
+        "desc": "Every system we've shipped runs inside an actual warehouse, dispatch floor, or audit workflow — not a demo environment."
       },
       {
-        "icon": "🔒",
+        "icon": "Lock",
         "title": "Security First",
-        "desc": "Every product is built with security best practices baked in from day one."
+        "desc": "Client data, financial records, and inventory data are handled with security practices built in from day one."
       },
       {
-        "icon": "📈",
-        "title": "Scalable Architecture",
-        "desc": "Code that grows with your business — no rewrites needed as you scale."
+        "icon": "TrendingUp",
+        "title": "Built to Scale",
+        "desc": "Architecture that grows with additional godowns, order volume, or client files — without a rewrite."
       },
       {
-        "icon": "🤝",
-        "title": "Dedicated Support",
-        "desc": "A real person answers your calls. We stay engaged long after launch."
+        "icon": "Headset",
+        "title": "Direct Support",
+        "desc": "You call the people who built your system, not a ticket queue. We stay engaged long after launch."
       }
     ]
   },
+  "values": [
+    {
+      "icon": "Compass",
+      "title": "Workflow first",
+      "desc": "Software should bend to the operation, not the other way around. We learn the process before we design the screens."
+    },
+    {
+      "icon": "Handshake",
+      "title": "Direct and accountable",
+      "desc": "A small team means no handoffs and no account managers. The people who build your system are the people you call."
+    },
+    {
+      "icon": "Gauge",
+      "title": "Measured by outcomes",
+      "desc": "Fewer counting errors, faster reconciliation, less manual re-entry. Working software is judged on what it changes."
+    },
+    {
+      "icon": "Layers",
+      "title": "Built to last",
+      "desc": "Clean architecture, documented code, and full ownership handed to the client. No lock-in, no black boxes."
+    }
+  ],
+  "techStack": [
+    "React", "React Native", "Node.js", "Python", "OpenCV", "PostgreSQL", "MongoDB",
+    "Express.js", "TypeScript", "Computer Vision", "PDF & Excel Automation",
+    "REST APIs", "AWS", "Docker", "Linux", "Billing Automation", "GST Invoicing", "Multi-tenant SaaS",
+    "Tailwind CSS", "Firebase", "Technical SEO", "Google Analytics", "WordPress"
+  ],
   "testimonials": [
     {
-      "quote": "Sakthi Software built our entire e-commerce platform from scratch. The team understood our business instantly and delivered a product that our customers love. Sales went up 40% in the first month.",
-      "initials": "RK",
-      "name": "Rajesh Kumar",
-      "role": "Founder, ShopEase India"
+      "quote": "Our online ordering system streamlined how distributors place orders, and the box count detection system removed manual counting errors on the dispatch floor entirely. Built exactly around how we operate.",
+      "initials": "SVT",
+      "name": "SVT Oil Corporation",
+      "role": "Operations Team"
     },
     {
-      "quote": "We needed a custom ERP tailored to our manufacturing workflow. They got it right the first time — on budget, on schedule. Exceptional technical team and great communication throughout.",
-      "initials": "PM",
-      "name": "Priya Mehta",
-      "role": "Operations Head, Viraj Industries"
+      "quote": "The audit automation tool cut our report preparation time significantly. What used to take days of manual cross-checking across client files now happens in a fraction of the time, with far fewer errors.",
+      "initials": "CA",
+      "name": "Chartered Accountancy Firm",
+      "role": "Partner, Hubli"
     },
     {
-      "quote": "Our mobile app went live in just 6 weeks. Clean UI, fast performance, and zero bugs on launch day. Sakthi Software is now our go-to partner for every digital initiative.",
-      "initials": "AS",
-      "name": "Arjun Sharma",
-      "role": "CEO, HealthTrack App"
+      "quote": "Managing inventory and billing across multiple large godowns used to be entirely manual. Their system gave us real-time stock visibility and billing accuracy we never had before.",
+      "initials": "APMC",
+      "name": "APMC, Hubli",
+      "role": "Godown Management"
+    },
+    {
+      "quote": "Billing used to hold up the counter — rate, weight, making charges, old gold, all worked out by hand while the customer waited. Now the bill is ready in moments on the app, and our stock and customer records update with it.",
+      "initials": "GJ",
+      "name": "Gold & Jewellery Retail",
+      "role": "Store Owner"
     }
-  ]
+  ],
+  "pages": {
+    "about": {
+      "title": "About Shakti Softwares",
+      "lede": "A Hubli-based engineering team building operational software for businesses that run on precision.",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1920&q=80",
+      "story": [
+        "Shakti Softwares builds the systems that businesses in and around Hubli actually run on — the platform a distributor places an order through, the register that tracks what is sitting in a godown, the tool that turns a folder of client files into a finished audit report.",
+        "We work with manufacturing and distribution businesses, agricultural trade and warehousing operations, and professional services firms. Each one came to us with a process that worked on paper and phone calls but had stopped scaling, and each one needed software shaped around that specific process rather than a product they would have to bend themselves to fit.",
+        "We are deliberately a small team. It means the person who understands your operation is the same person writing the code, and the same person who picks up the phone two years later when you want to add another godown or another report format."
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "lede": "From operational platforms and automation tooling to the websites and infrastructure that support them.",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80"
+    },
+    "work": {
+      "title": "Our Work",
+      "lede": "Every project below is running in production for an active client — not a concept, not a demo.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "lede": "Tell us about your operation and what is slowing it down. We'll come back within one working day.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80"
+    }
+  }
 }
